@@ -3,33 +3,22 @@ body{
 }
 
 aside{
-
     padding: 20px;
 }
+
 header{
-    background-image: url("../img/diagonal-squares.png");
+    background: repeat grey scroll url("../img/diagonal-squares.png")  ;
     padding: 20px;
 }
 #head{
 
 }
 
-nav{
-    padding: 20px;
-}
-
-section{
+main section{
   padding: 20px
 }
 
-nav{
-    background: lightgrey;
-    border-bottom-left-radius: 10px;
-    border-bottom-right-radius: 10px;
-}
-
-section article{
-    
+main section article {
     background: wheat;
     padding: 10px;
     border-radius: 10px;

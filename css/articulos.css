@@ -1,0 +1,19 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr 1fr;
+}
+
+header{
+    height: 30vh;
+}
+
+section,header,nav,footer{
+    grid-column: 2/4;
+}
+
+header{
+    grid-column: 2/4;
+}
+nav{
+    grid-column: 2/4;
+}
