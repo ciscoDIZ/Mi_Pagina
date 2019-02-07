@@ -1,19 +1,26 @@
 main{
     display: grid;
-    grid-template-columns: 1fr 2fr 2fr 1fr;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
 }
 
 header{
     height: 30vh;
 }
 
-section,header,nav,footer{
-    grid-column: 2/4;
+section,header,nav{
+    grid-column: 2/3;
 }
 
 header{
     grid-column: 2/4;
 }
 nav{
+    grid-column: 2/4;
+}
+aside{
+    grid-row: 3/4;
+    grid-column: 3/4;
+}
+footer{
     grid-column: 2/4;
 }
