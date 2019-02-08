@@ -46,8 +46,6 @@ header{
     grid-column: 2/5;
 }
 
-
-
 section h5:nth-of-type(1){
     flex: 1 0 200px;
 }
@@ -55,6 +53,7 @@ section h5:nth-of-type(1){
 section img{
     flex: 0 1 15vw;
 }
+
 section div{
     padding: 5px;
     flex: 1 0 100px;
