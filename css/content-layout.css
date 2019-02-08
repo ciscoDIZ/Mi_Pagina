@@ -1,0 +1,14 @@
+main{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr 1fr;
+}
+header,nav,footer{
+    grid-column: 2/4;
+}
+section{
+    grid-column: 2/3;
+}
+aside{
+    grid-column: 3/4;
+    grid-row: 3/5;
+}

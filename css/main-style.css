@@ -9,6 +9,7 @@ aside{
 header{
     background: repeat grey scroll url("../img/diagonal-squares.png")  ;
     padding: 20px;
+    height: 30vh;
 }
 #head{
 
@@ -36,7 +37,7 @@ main section article {
     text-decoration: none;
 }
 
-.layout:not(header){
+.style:not(header){
     opacity: 0.7;
     padding: 15px;
     border-radius: 10px;
