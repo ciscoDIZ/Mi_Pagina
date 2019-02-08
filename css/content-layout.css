@@ -5,10 +5,17 @@ main{
 header,nav,footer{
     grid-column: 2/4;
 }
+footer{
+    margin-top: 10px;
+}
 section{
     grid-column: 2/3;
+    margin-top: 10px;
+    margin-right: 20px;
 }
 aside{
+    margin-top: 10px;
     grid-column: 3/4;
     grid-row: 3/5;
 }
+

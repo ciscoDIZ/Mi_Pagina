@@ -11,6 +11,10 @@ header,nav,footer{
     grid-column: 2/5;
 }
 
+footer{
+    margin-top: 10px;
+}
+
 nav{
     grid-row: 2/3;
 }
@@ -18,10 +22,12 @@ nav{
 section{
     grid-row: 3/4;
     grid-column: 2/4;
-
+    margin-top: 10px;
+    margin-right: 20px;
 }
 
 aside{
     grid-row: 3/4;
     grid-column: 4/5;
+    margin-top: 10px;
 }
