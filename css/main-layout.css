@@ -1,6 +1,7 @@
-@media screen and (min-width: 0px) and (max-width: 70px){
+@media screen and  (min-width: 0px) and (max-width: 499px){
     #grid{
-
+        display: grid;
+        grid-template-columns: 1fr;
     }
     section{
 
@@ -50,10 +51,10 @@
 
     }
 }
-@media screen and (min-width: 60px) and (max-width: 800px){
+@media screen and (min-width: 500px) and (max-width: 1500px){
     #grid{
-
-
+        display: grid;
+        grid-template-columns: 1fr 4fr 1fr;
     }
     section{
 
@@ -78,16 +79,17 @@
     }
 
     nav{
-
+        grid-row: 3/7;
     }
 
     aside{
 
     }
-
-    header{
-
-
+    .section,aside{
+        grid-column: 2/4;
+    }
+    header,footer{
+        grid-column: 1/4;
     }
 
     section h5:nth-of-type(1){
@@ -102,7 +104,7 @@
 
     }
 }
-@media screen and (min-width: 800px){
+@media screen and (min-width: 1500px){
     #grid{
         display: grid;
         grid-template-columns:1fr 2fr 2fr 1fr 1fr;
@@ -163,64 +165,3 @@
         flex: 1 0 100px;
     }
 }
-/*
-#grid{
-    display: grid;
-    grid-template-columns:1fr 2fr 2fr 1fr 1fr;
-}
-section{
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
-    min-height: 500px;
-    margin-top: 10px;
-    margin-right: 10px;
-}
-
-main,nav,footer{
-    grid-column: 1/-1;
-}
-
-
-
-main section:nth-of-type(2n+1){
-    grid-column: 2/3;
-}
-
-main section:nth-of-type(2n){
-    grid-column: 3/4;
-}
-
-footer{
-    margin: 10px 0 10px 0;
-    grid-column: 2/5;
-}
-
-nav{
-    grid-column: 2/5;
-}
-
-aside{
-    margin-top: 10px;
-    grid-column: 4/5;
-    grid-row: 3/6;
-}
-
-header{
-
-    grid-column: 2/5;
-}
-
-section h5:nth-of-type(1){
-    flex: 1 0 209px;
-}
-
-section img{
-    flex: 0 1 15vw;
-}
-
-section div{
-    padding: 5px;
-    flex: 1 0 100px;
-}
-*/

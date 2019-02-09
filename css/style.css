@@ -41,17 +41,22 @@ main section article {
 }
 
 .leer-mas{
+    width: 100%;
     background: wheat;
     border-radius: 10px;
-    color: darkslateblue;
-    font-weight: bold;
+    color: grey;
+
 
 }
-.leer-mas a{
+section a{
+    color: grey;
+    display: block;
     font-family: coolvetica-rg;
     text-decoration: none;
 }
-
+ section a:hover{
+     text-decoration: underline;
+ }
 .style:not(header){
 
     padding: 15px;
@@ -70,7 +75,7 @@ article p{
 .section h1,h3{
     font-size: 2rem;
     padding: 8px;
-    font-family: Computerfont;
+    font-family: coolvetica-rg;
     color: grey;
     background: wheat;
     border-radius: 10px;
@@ -103,7 +108,7 @@ aside ul{
 }
 
 aside li a{
-    font-family: Computerfont;
+    font-family: coolvetica-rg;
     color: grey;
     text-decoration: none;
     font-size: 1.5em;
