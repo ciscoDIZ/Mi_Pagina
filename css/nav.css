@@ -27,6 +27,8 @@ nav #nav-bar{
 }
 
 #nav-bar a{
+    font-size: 2rem;
+    font-family: Computerfont;
     border: solid 1px wheat;
     border-radius: 10px;
     background: grey;
