@@ -82,9 +82,6 @@ article p{
     display: inline-block;
 }
 
-img{
-    width: 10vw;
-}
 aside li ul{
     display: none;
     margin-left: 20px;

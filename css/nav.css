@@ -1,23 +1,16 @@
 @media screen and  (min-width: 0px) and (max-width: 499px){
-    nav {
-        z-index: 1;
-        position: sticky;
-        top: 0;
+    #menu {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: flex-start;
+        align-items: center;
         padding: 20px;
         background: lightgrey;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
 
-    nav #nav-bar {
-        max-width: 50vw;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    #nav-bar a:hover {
+    #menu a:hover {
         border: solid 1px grey;
         border-radius: 10px;
         background: wheat;
@@ -27,7 +20,7 @@
         text-decoration: none;
     }
 
-    #nav-bar a {
+    #menu a {
         font-size: 2rem;
         font-family: Computerfont;
         border: solid 1px wheat;
@@ -39,33 +32,25 @@
         text-decoration: none;
     }
 
-    #nav-bar a:nth-of-type(2) {
-        margin-right: 5%;
-        margin-left: 5%;
+    #menu a {
+        margin-top: 5%;
     }
 }
 
 
 @media screen and (min-width: 500px) and (max-width: 1500px){
-    nav {
-        z-index: 1;
-        position: sticky;
-        top: 0;
+    #menu {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
         padding: 20px;
         background: lightgrey;
         border-bottom-left-radius: 10px;
         border-bottom-right-radius: 10px;
     }
 
-    nav #nav-bar {
-        max-width: 50vw;
-        display: flex;
-        flex-flow: column wrap;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    #nav-bar a:hover {
+    #menu a:hover {
         border: solid 1px grey;
         border-radius: 10px;
         background: wheat;
@@ -75,7 +60,7 @@
         text-decoration: none;
     }
 
-    #nav-bar a {
+    #menu a {
         font-size: 2rem;
         font-family: Computerfont;
         border: solid 1px wheat;
@@ -91,7 +76,11 @@
 }
 
 @media screen and (min-width: 1500px) {
-    nav {
+    #menu {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
         z-index: 1;
         position: sticky;
         top: 0;
@@ -101,15 +90,7 @@
         border-bottom-right-radius: 10px;
     }
 
-    nav #nav-bar {
-        max-width: 50vw;
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
-    #nav-bar a:hover {
+    #menu a:hover {
         border: solid 1px grey;
         border-radius: 10px;
         background: wheat;
@@ -119,7 +100,7 @@
         text-decoration: none;
     }
 
-    #nav-bar a {
+    #menu a {
         font-size: 2rem;
         font-family: Computerfont;
         border: solid 1px wheat;
@@ -129,10 +110,5 @@
         text-align: center;
         padding: 10px 11px;
         text-decoration: none;
-    }
-
-    #nav-bar a:nth-of-type(2) {
-        margin-right: 5%;
-        margin-left: 5%;
     }
 }
