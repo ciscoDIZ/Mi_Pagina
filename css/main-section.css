@@ -1,13 +1,15 @@
 @media screen and  (min-width: 0px) and (max-width: 499px){
-
     section{
         display: flex;
         flex-flow: row wrap;
         align-items: center;
         height: 500px;
+        margin: 5px 10px 5px 10px;
     }
 
-
+    img{
+        width: 10vw;
+    }
     section h3:nth-of-type(1){
         flex: 1 0 200px;
     }
@@ -32,8 +34,6 @@
         margin-top: 10px;
         margin-right: 10px;
     }
-
-
 
     .section{
         grid-column: 2/4;
